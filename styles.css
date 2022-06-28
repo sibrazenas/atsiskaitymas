@@ -2,6 +2,8 @@ body {
     box-sizing: border-box;
     margin: 30px;
     height: auto;
+    font-family: 'Inter', sans-serif;
+
 }
 
 header {
@@ -13,7 +15,6 @@ header {
 ul {
     list-style: none;
     display: flex;
-    font-family: 'Inter', sans-serif;
 }
 
 li {
@@ -74,4 +75,30 @@ button {
     align-items: flex-end;
     height:  80%;
 }
+
+.early_bird {
+    height: 340px;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url("./background.svg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.free_nft {
+    margin-bottom: 40px;
+    margin-left: 40px
+}
+
+.text1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text2 {
+    font-weight: 400;
+}
+
 
