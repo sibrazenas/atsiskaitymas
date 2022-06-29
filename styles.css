@@ -212,3 +212,72 @@ button {
 .nft-text2 {
   font-size: 56px;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.footer_left {
+  width: 40%;
+}
+
+.footer_right {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.footer_nav_title {
+  color: #555555;
+  font-weight: 700;
+}
+
+.under_footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 428px) {
+  nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .card_container {
+    flex-direction: column;
+  }
+
+  .girl_svg {
+    margin-left: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer_right {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer_nav_container {
+    margin-right: 20px;
+  }
+}
