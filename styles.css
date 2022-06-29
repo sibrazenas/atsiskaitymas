@@ -1,27 +1,283 @@
 body {
-    box-sizing: border-box;
-    margin: 30px;
-    height: auto;
+  box-sizing: border-box;
+  margin: 30px;
+  height: auto;
+  font-family: "Inter", sans-serif;
 }
 
 header {
-    display: flex;
-    align-items: center;
-   justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    font-family: 'Inter', sans-serif;
+  list-style: none;
+  display: flex;
 }
 
 li {
-    margin: 28px;
-    color: #555555;
-    
+  margin: 28px;
+  color: #555555;
 }
 
-.signup{
-    color: #FF3998
+.signup {
+  color: #ff3998;
+}
+
+.intro_text {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  margin-top: 100px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section_text {
+  width: 40%;
+}
+
+.launching_soon {
+  color: #ff3998;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nft_text {
+  font-size: 96px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.dont_miss_out {
+  font-size: 20px;
+  font-weight: 400px;
+  color: #555555;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  color: black;
+  margin: auto;
+  border: 3px solid orange;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  background-color: transparent;
+}
+
+.robot {
+  align-items: flex-end;
+  height: 80%;
+}
+
+.early_bird {
+  height: 340px;
+  width: 100%;
+  margin-top: 20px;
+  background-image: url("./background.svg");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.free_nft {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.text1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.text2 {
+  font-weight: 400;
+}
+
+.companies {
+  margin-top: 80px;
+}
+
+.companies_list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.companies_list_item {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  height: 400px;
+  width: 290px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card_text {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+.series {
+  color: #ff8139;
+}
+
+.eth_container {
+  display: flex;
+  align-items: center;
+}
+
+.eth {
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
+}
+.id {
+  color: #777777;
+}
+
+.gray_text {
+  color: #777777;
+}
+
+.showcase {
+  margin-top: 100px;
+}
+
+.auction_text {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nft_text2 {
+  font-size: 56px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.section_text2 {
+  width: 50%;
+}
+
+.girl {
+  height: 80%;
+  margin-right: 250px;
+}
+
+.girl_container {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.top_hr {
+  margin: 100px 0px;
+}
+
+.girl_svg {
+  margin-left: 300px;
+}
+
+.bottom_hr {
+  margin: 0;
+  margin-bottom: 150px;
+}
+
+.nft-text2 {
+  font-size: 56px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.footer_left {
+  width: 40%;
+}
+
+.footer_right {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.footer_nav_title {
+  color: #555555;
+  font-weight: 700;
+}
+
+.under_footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 428px) {
+  nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .card_container {
+    flex-direction: column;
+  }
+
+  .girl_svg {
+    margin-left: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer_right {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .footer_nav_container {
+    margin-right: 20px;
+  }
 }
